@@ -1,0 +1,1783 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R
+ /F4 5 0 R
+ /F5 10 0 R
+ /F6 11 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Times-Roman
+<< /BaseFont /Times-Roman
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+5 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+6 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 239.1029
+ 557.5936
+ 386.9429
+ 569.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+7 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 301.5989
+ 536.5936
+ 475.5616
+ 548.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class PDFDictionary 
+8 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://affiliate-program.amazon.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 512.5936
+ 230.5329
+ 524.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class PDFDictionary 
+9 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 494.5936
+ 276.1229
+ 506.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'F5': class PDFType1Font 
+10 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F6': class PDFType1Font 
+11 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F6
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+12 0 obj
+% Page dictionary
+<< /Annots [ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R ]
+ /Contents 43 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 42 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER5': class PDFDictionary 
+13 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SearchIndexValues.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 717.5936
+ 586.6229
+ 729.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class PDFDictionary 
+14 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SortValuesArticle.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 675.5936
+ 576.6029
+ 687.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class PDFDictionary 
+15 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 648.5936
+ 579.9429
+ 660.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class PDFDictionary 
+16 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/ItemSearch.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 621.5936
+ 504.3629
+ 633.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class PDFDictionary 
+17 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SearchIndexValues.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 378.3936
+ 586.6229
+ 390.3936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class PDFDictionary 
+18 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 351.3936
+ 579.9429
+ 363.3936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class PDFDictionary 
+19 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/ItemLookup.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 108.6929
+ 324.3936
+ 505.4829
+ 336.3936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class PDFDictionary 
+20 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 159.3729
+ 219.3936
+ 316.0629
+ 231.3936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+21 0 obj
+% Page dictionary
+<< /Annots [ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R ]
+ /Contents 44 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 42 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+22 0 obj
+% Page dictionary
+<< /Contents 45 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 42 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+23 0 obj
+% Page dictionary
+<< /Contents 46 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 42 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R24': class PDFCatalog 
+24 0 obj
+% Document Root
+<< /Outlines 26 0 R
+ /PageMode /UseNone
+ /Pages 42 0 R
+ /Type /Catalog >>
+endobj
+% 'R25': class PDFInfo 
+25 0 obj
+<< /Author ()
+ /CreationDate (D:20100101163425-01'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (JV Amazon Advertising Documentation) >>
+endobj
+% 'R26': class PDFOutlines 
+26 0 obj
+<< /Count 20
+ /First 27 0 R
+ /Last 35 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+27 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 699.0236
+ 0 ]
+ /Next 28 0 R
+ /Parent 26 0 R
+ /Title (INTRODUCTION) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+28 0 obj
+<< /Count 6
+ /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 479.0236
+ 0 ]
+ /First 29 0 R
+ /Last 32 0 R
+ /Next 35 0 R
+ /Parent 26 0 R
+ /Prev 27 0 R
+ /Title (USAGE) >>
+endobj
+% 'Outline.16.0': class OutlineEntryObject 
+29 0 obj
+<< /Count 2
+ /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 248.0236
+ 0 ]
+ /First 30 0 R
+ /Last 31 0 R
+ /Next 32 0 R
+ /Parent 28 0 R
+ /Title (Item Search) >>
+endobj
+% 'Outline.17.0': class OutlineEntryObject 
+30 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 200.0236
+ 0 ]
+ /Next 31 0 R
+ /Parent 29 0 R
+ /Title (Syntax) >>
+endobj
+% 'Outline.17.1': class OutlineEntryObject 
+31 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 97.82362
+ 0 ]
+ /Parent 29 0 R
+ /Prev 30 0 R
+ /Title (Available parameters) >>
+endobj
+% 'Outline.16.1': class OutlineEntryObject 
+32 0 obj
+<< /Count 2
+ /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 600.0236
+ 0 ]
+ /First 33 0 R
+ /Last 34 0 R
+ /Parent 28 0 R
+ /Prev 29 0 R
+ /Title (Item Lookup) >>
+endobj
+% 'Outline.18.0': class OutlineEntryObject 
+33 0 obj
+<< /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 552.0236
+ 0 ]
+ /Next 34 0 R
+ /Parent 32 0 R
+ /Title (Syntax) >>
+endobj
+% 'Outline.18.1': class OutlineEntryObject 
+34 0 obj
+<< /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 461.8236
+ 0 ]
+ /Parent 32 0 R
+ /Prev 33 0 R
+ /Title (Available parameters) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+35 0 obj
+<< /Count 6
+ /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 302.8236
+ 0 ]
+ /First 36 0 R
+ /Last 39 0 R
+ /Parent 26 0 R
+ /Prev 28 0 R
+ /Title (CONFIGURATION & DEVELOPMENT) >>
+endobj
+% 'Outline.19.0': class OutlineEntryObject 
+36 0 obj
+<< /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 251.8236
+ 0 ]
+ /Next 37 0 R
+ /Parent 35 0 R
+ /Title (Amazon Web Services \(AWS\) account) >>
+endobj
+% 'Outline.19.1': class OutlineEntryObject 
+37 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Next 38 0 R
+ /Parent 35 0 R
+ /Prev 36 0 R
+ /Title (API version and host) >>
+endobj
+% 'Outline.19.2': class OutlineEntryObject 
+38 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 675.0236
+ 0 ]
+ /Next 39 0 R
+ /Parent 35 0 R
+ /Prev 37 0 R
+ /Title (Associate settings) >>
+endobj
+% 'Outline.19.3': class OutlineEntryObject 
+39 0 obj
+<< /Count 2
+ /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 557.8236
+ 0 ]
+ /First 40 0 R
+ /Last 41 0 R
+ /Parent 35 0 R
+ /Prev 38 0 R
+ /Title (Result Items and Response Groups) >>
+endobj
+% 'Outline.20.0': class OutlineEntryObject 
+40 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 386.8236
+ 0 ]
+ /Next 41 0 R
+ /Parent 39 0 R
+ /Title (Response Groups configuration) >>
+endobj
+% 'Outline.20.1': class OutlineEntryObject 
+41 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 62.69291
+ 305.8236
+ 0 ]
+ /Parent 39 0 R
+ /Prev 40 0 R
+ /Title (Response Group Handler development) >>
+endobj
+% 'R42': class PDFPages 
+42 0 obj
+% page tree
+<< /Count 4
+ /Kids [ 12 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R ]
+ /Type /Pages >>
+endobj
+% 'R43': class PDFStream 
+43 0 obj
+% page stream
+<< /Length 8192 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+BT 1 0 0 1 0 9.64 Tm 47.69488 0 Td 24 TL /F2 20 Tf 0 0 0 rg (JV Amazon Advertising Documentation) Tj T* -47.69488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 85.70988 0 Td 18 TL /F2 15 Tf 0 0 0 rg (Version 1.0 beta - 2010 J\351r\364me Vieilledent) Tj T* -85.70988 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 678.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (INTRODUCTION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 648.0236 cm
+q
+BT 1 0 0 1 0 16.82 Tm .853555 Tw 12 TL /F2 10 Tf 0 0 0 rg (JV Amazon Advertising ) Tj /F1 10 Tf (allows you to query Amazon huge product catalog by using ) Tj /F2 10 Tf (Amazon Product) Tj T* 0 Tw (Advertising API) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 630.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Monetize your website by silently querying Amazon catalog and providing sponsored links !) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 614.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (With JV Amazon Advertising) Tj (, you can :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 614.0236 cm
+Q
+q
+1 0 0 1 72.69291 596.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (Do an ) Tj /F2 10 Tf (Item Search ) Tj /F1 10 Tf (by keywords, facetting by category \() Tj /F4 10 Tf (SearchIndex) Tj /F1 10 Tf (\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 596.0236 cm
+Q
+q
+1 0 0 1 72.69291 599.0236 cm
+Q
+q
+1 0 0 1 72.69291 581.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (Do an ) Tj /F2 10 Tf (Item Lookup ) Tj /F1 10 Tf (by an Amazon Product ID \() Tj /F4 10 Tf (ASIN) Tj /F1 10 Tf (\) or ) Tj /F4 10 Tf (ISBN) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 581.0236 cm
+Q
+q
+1 0 0 1 72.69291 584.0236 cm
+Q
+q
+1 0 0 1 72.69291 566.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Look for products related to another) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 566.0236 cm
+Q
+q
+1 0 0 1 72.69291 569.0236 cm
+Q
+q
+1 0 0 1 72.69291 551.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (And all operations supported by ) Tj 0 0 .501961 rg (Amazon Product Advertising API ) Tj 0 0 0 rg (!) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 551.0236 cm
+Q
+q
+1 0 0 1 62.69291 509.0236 cm
+q
+BT 1 0 0 1 0 28.82 Tm 2.110542 Tw 12 TL /F1 10 Tf 0 0 0 rg (To be able to use this extension, you need to be ) Tj 0 0 .501961 rg (registered as a developer at Amazon) Tj 0 0 0 rg (. To provide) Tj T* 0 Tw 2.839982 Tw /F2 10 Tf (sponsored links ) Tj /F1 10 Tf (and therefore start making money by advertising Amazon Products, you need to) Tj T* 0 Tw 0 0 .501961 rg (subscribe to Amazon affiliate program) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 491.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Amazon Product Advertising API documentation) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (USAGE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 440.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (JV Amazon Advertising mainly consists in fetch functions you can use in templates and in PHP :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 440.0236 cm
+Q
+q
+1 0 0 1 72.69291 422.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F4 10 Tf 0 0 0 rg (item_search ) Tj /F1 10 Tf (\(search products by keywords\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 422.0236 cm
+Q
+q
+1 0 0 1 72.69291 425.0236 cm
+Q
+q
+1 0 0 1 72.69291 407.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F4 10 Tf 0 0 0 rg (item_lookup ) Tj /F1 10 Tf (\(lookup product information by product ID\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 407.0236 cm
+Q
+q
+1 0 0 1 62.69291 365.0236 cm
+q
+BT 1 0 0 1 0 28.82 Tm .25498 Tw 12 TL /F1 10 Tf 0 0 0 rg (These functions return either a single or an array of ) Tj /F2 10 Tf (JVAmazonAdvertisingResultItem ) Tj /F1 10 Tf (object\(s\) \(default,) Tj T* 0 Tw .111647 Tw (can be customized in ) Tj /F4 10 Tf (amazonadvertising.ini) Tj /F1 10 Tf (\). Object attributes depend on Response Groups. Main default) Tj T* 0 Tw (attributes are :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 359.0236 cm
+Q
+q
+1 0 0 1 62.69291 290.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 66 cm
+Q
+q
+1 0 0 1 23 48 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (id ) Tj /F1 10 Tf (Product ID) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 48 cm
+Q
+q
+1 0 0 1 23 51 cm
+Q
+q
+1 0 0 1 23 33 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (url ) Tj /F1 10 Tf (Product URL, localized and with your associate tag if enabled) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 33 cm
+Q
+q
+1 0 0 1 23 36 cm
+Q
+q
+1 0 0 1 23 18 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (title ) Tj /F1 10 Tf (Product name) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 18 cm
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (image) Tj /F1 10 Tf ( ) Tj /F4 10 Tf (JVAmazonAdvertisingImageHolder ) Tj /F1 10 Tf (object containing image variations) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 290.0236 cm
+Q
+q
+1 0 0 1 62.69291 260.0236 cm
+q
+BT 1 0 0 1 0 16.82 Tm 1.376235 Tw 12 TL /F1 10 Tf 0 0 0 rg (Attributes can be used in PHP and in templates as object properties. Objects can be "var_dumped" in) Tj T* 0 Tw (PHP and in templates \(with ) Tj /F4 10 Tf (attribute ) Tj /F1 10 Tf (operator\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 230.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Item Search) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 212.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (Returns an array of ) Tj /F2 10 Tf (JVAmazonAdvertisingResultItem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 185.0236 cm
+q
+BT 1 0 0 1 0 6.025 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Syntax) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 167.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F4 10 Tf 12 TL (eZ Publish template) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 109.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 29.71 Tm 12 TL /F6 10 Tf 0 0 0 rg ({def $amazonItems = fetch\( 'amazonadvertising', 'item_search', hash\() Tj T* (  'keywords'      =) Tj (>) Tj ( 'my_keywords',) Tj T* (  'search_index'  =) Tj (>) Tj ( 'ProductCategory' \)}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 82.82362 cm
+q
+BT 1 0 0 1 0 6.025 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Available parameters) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R44': class PDFStream 
+44 0 obj
+% page stream
+<< /Length 8945 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 759.0236 cm
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 144 cm
+Q
+q
+1 0 0 1 23 126 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (keywords ) Tj /F1 10 Tf (\(string\) - ) Tj /F2 10 Tf (required ) Tj /F1 10 Tf (Keywords to search with) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 126 cm
+Q
+q
+1 0 0 1 23 129 cm
+Q
+q
+1 0 0 1 23 99 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 30.79857 Tw 12 TL /F2 10 Tf 0 0 0 rg (search_index ) Tj /F1 10 Tf (\(string\) The product category to search. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SearchIndexValues.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 99 cm
+Q
+q
+1 0 0 1 23 102 cm
+Q
+q
+1 0 0 1 23 84 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (item_page ) Tj /F1 10 Tf (\(integer\) Retrieves a specific page of items from all of the items in a response) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 84 cm
+Q
+q
+1 0 0 1 23 87 cm
+Q
+q
+1 0 0 1 23 57 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 16.56636 Tw 12 TL /F2 10 Tf 0 0 0 rg (sort ) Tj /F1 10 Tf (Means by which the items in the response are ordered. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SortValuesArticle.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 57 cm
+Q
+q
+1 0 0 1 23 60 cm
+Q
+q
+1 0 0 1 23 30 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 18.64444 Tw 12 TL /F2 10 Tf 0 0 0 rg (response_group ) Tj /F1 10 Tf (\(array\) Specifies the types of values to return. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 30 cm
+Q
+q
+1 0 0 1 23 33 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 1.514983 Tw 12 TL /F2 10 Tf 0 0 0 rg (raw_params ) Tj /F1 10 Tf (\(array\) Params transferred "as is" to AWS. Key is the raw param name. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/ItemSearch.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+Q
+q
+1 0 0 1 62.69291 582.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Item Lookup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 564.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (Returns a single ) Tj /F2 10 Tf (JVAmazonAdvertisingResultItem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+BT 1 0 0 1 0 6.025 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Syntax) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F4 10 Tf 12 TL (eZ Publish template) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 473.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 17.71 Tm /F6 10 Tf 12 TL ({def $amazonItemInfo = fetch\( 'amazonadvertising', 'item_lookup', hash\() Tj T* (  'id', '1904811647' \)}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 446.8236 cm
+q
+BT 1 0 0 1 0 6.025 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Available parameters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 434.8236 cm
+Q
+q
+1 0 0 1 62.69291 314.8236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 117 cm
+Q
+q
+1 0 0 1 23 99 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (id ) Tj /F1 10 Tf (\(string\) - ) Tj /F2 10 Tf (required ) Tj /F1 10 Tf (ProductID to lookup) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 99 cm
+Q
+q
+1 0 0 1 23 102 cm
+Q
+q
+1 0 0 1 23 84 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (id_type ) Tj /F1 10 Tf (\(string\) Valid Values: ASIN|SKU|UPC|EAN|ISBN) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 84 cm
+Q
+q
+1 0 0 1 23 87 cm
+Q
+q
+1 0 0 1 23 57 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 30.79857 Tw 12 TL /F2 10 Tf 0 0 0 rg (search_index ) Tj /F1 10 Tf (\(string\) The product category to search. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SearchIndexValues.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 57 cm
+Q
+q
+1 0 0 1 23 60 cm
+Q
+q
+1 0 0 1 23 30 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 18.64444 Tw 12 TL /F2 10 Tf 0 0 0 rg (response_group ) Tj /F1 10 Tf (\(array\) Specifies the types of values to return. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/CHAP_ResponseGroupsList.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 30 cm
+Q
+q
+1 0 0 1 23 33 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 1.514983 Tw 12 TL /F2 10 Tf 0 0 0 rg (raw_params ) Tj /F1 10 Tf (\(array\) Params transferred "as is" to AWS. Key is the raw param name. See) Tj T* 0 Tw 0 0 .501961 rg (http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/ItemLookup.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 314.8236 cm
+Q
+q
+1 0 0 1 62.69291 281.8236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (CONFIGURATION & DEVELOPMENT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 263.8236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (For ) Tj /F4 10 Tf (jvamazonadvertising ) Tj /F1 10 Tf (to work as expected, you need to configure it in ) Tj /F2 10 Tf (amazonadvertising.ini ) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 233.8236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Amazon Web Services \(AWS\) account) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 215.8236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F2 10 Tf 0 0 0 rg (When registering to ) Tj 0 0 .501961 rg (Amazon Product Advertising API) Tj 0 0 0 rg (, you are given 2 identifiers :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 215.8236 cm
+Q
+q
+1 0 0 1 72.69291 197.8236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Access Key ID \(your developer ID\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 197.8236 cm
+Q
+q
+1 0 0 1 72.69291 200.8236 cm
+Q
+q
+1 0 0 1 72.69291 182.8236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Secret Access Key \(private key used to authenticate your requests\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 72.69291 182.8236 cm
+Q
+q
+1 0 0 1 62.69291 152.8236 cm
+q
+BT 1 0 0 1 0 16.82 Tm .928221 Tw 12 TL /F1 10 Tf 0 0 0 rg (You can find these identifiers in your developer account page on Amazon \(there is a special section for) Tj T* 0 Tw (Amazon Product Advertising API\) Enter your identifiers in an override of ) Tj /F4 10 Tf (amazonadvertising.ini) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 95.62362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 29.71 Tm /F6 10 Tf 12 TL ([AWSSettings]) Tj T* (AccessKeyID=your_access_key) Tj T* (SecretAccessKey=your_secret_access_key) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R45': class PDFStream 
+45 0 obj
+% page stream
+<< /Length 6416 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (API version and host) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+BT 1 0 0 1 0 16.82 Tm .126342 Tw 12 TL /F1 10 Tf 0 0 0 rg (Amazon API is versionned. Currently, ) Tj /F4 10 Tf (jvamazonadvertising ) Tj /F1 10 Tf (works with ) Tj /F2 10 Tf (2009-10-01 ) Tj /F1 10 Tf (version \(default\). Other) Tj T* 0 Tw (versions might work but were not tested) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+BT 1 0 0 1 0 16.82 Tm 3.35284 Tw 12 TL /F1 10 Tf 0 0 0 rg (Amazon API is localized. To differentiate AWS calls, Amazon has 2 endpoints \(hosts\) per locale) Tj T* 0 Tw (\(http/https\). See comments in ) Tj /F2 10 Tf (amazonadvertising.ini ) Tj /F1 10 Tf (for more info.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Associate settings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 2.475697 Tw (In order to provide sponsored links, you need an Amazon partner account. You can enable/disable) Tj T* 0 Tw (sponsored links in config file. To enable :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 569.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 29.71 Tm /F6 10 Tf 12 TL ([AssociateSettings]) Tj T* (AssociateEnabled=true) Tj T* (AssociateTag=your_associate_id) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 539.8236 cm
+q
+BT 1 0 0 1 0 7.23 Tm 18 TL /F2 15 Tf 0 0 0 rg (Result Items and Response Groups) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 485.8236 cm
+q
+BT 1 0 0 1 0 40.82 Tm .941984 Tw 12 TL /F1 10 Tf 0 0 0 rg (When querying ) Tj /F4 10 Tf (Amazon Product Advertising API) Tj /F1 10 Tf (, all items piece of information returned can be used to) Tj T* 0 Tw 4.806976 Tw /F4 10 Tf (hydrate ) Tj /F1 10 Tf (PHP value objects \() Tj /F4 10 Tf (JVAmazonAdvertisingResultItem ) Tj /F1 10 Tf (class by default\). However, not all) Tj T* 0 Tw 5.376412 Tw (information is returned by default.You can ask for more info by specifying one ore several) Tj T* 0 Tw /F2 10 Tf (ResponseGroup ) Tj /F1 10 Tf (values in your fetch call.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 455.8236 cm
+q
+BT 1 0 0 1 0 16.82 Tm .531412 Tw 12 TL /F1 10 Tf 0 0 0 rg (As Response Groups make the response data structure vary, every ResponseGroup need to be handled) Tj T* 0 Tw (by a ) Tj /F2 10 Tf (ResponseGroupHandler) Tj /F1 10 Tf (. By default, ) Tj /F4 10 Tf (jvamazonadvertising ) Tj /F1 10 Tf (comes with 2 ) Tj /F4 10 Tf (ResponseGroupHandlers ) Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.8236 cm
+Q
+q
+1 0 0 1 62.69291 398.8236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 48 cm
+Q
+q
+1 0 0 1 23 18 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 16.82 Tm 6.107953 Tw 12 TL /F1 10 Tf 0 0 0 rg (JVAmazonAdvertisingItemAttributesResponseHandler \(will handle ) Tj /F4 10 Tf (ItemAttributes ) Tj /F1 10 Tf (- main) Tj T* 0 Tw (product info\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 18 cm
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (JVAmazonAdvertisingImagesResponseHandler \(will handle product Images\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 398.8236 cm
+Q
+q
+1 0 0 1 62.69291 371.8236 cm
+q
+BT 1 0 0 1 0 6.025 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Response Groups configuration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 317.8236 cm
+q
+BT 1 0 0 1 0 40.82 Tm 1.307976 Tw 12 TL /F1 10 Tf 0 0 0 rg (Every AWS query embeds ) Tj /F4 10 Tf (ResponseGroups ) Tj /F1 10 Tf (defined in ) Tj /F2 10 Tf (DefaultResponseGroups[] ) Tj /F1 10 Tf (config array. Every) Tj T* 0 Tw 2.46122 Tw /F4 10 Tf (ResponseGroup ) Tj /F1 10 Tf (declared ) Tj /F4 10 Tf (DefaultResponseGroups[] ) Tj /F1 10 Tf (MUST be handled by a ) Tj /F4 10 Tf (ResponseGroupHandler) Tj /F1 10 Tf (.) Tj T* 0 Tw .746976 Tw /F4 10 Tf (ResponseGroupHandlers ) Tj /F1 10 Tf (have to be declared in ) Tj /F4 10 Tf (ResponseGroupHandlers[] ) Tj /F1 10 Tf (config array. See comments) Tj T* 0 Tw (in ) Tj /F4 10 Tf (amazonadvertising.ini*) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 290.8236 cm
+q
+BT 1 0 0 1 0 6.025 Tm 15 TL /F5 12.5 Tf 0 0 0 rg (Response Group Handler development) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 248.8236 cm
+q
+BT 1 0 0 1 0 28.82 Tm 18.10122 Tw 12 TL /F1 10 Tf 0 0 0 rg (A ) Tj /F2 10 Tf (ResponseGroupHandler ) Tj /F1 10 Tf (consists in a simple PHP class implementing) Tj T* 0 Tw 6.141085 Tw /F4 10 Tf (IJVAmazonAdvertisingResponseGroupHandler ) Tj /F1 10 Tf (interface. This class has at least one method :) Tj T* 0 Tw /F4 10 Tf (handleResult\(\) ) Tj /F1 10 Tf (that must return an associative array.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 131.2485 cm
+q
+q
+.822636 0 0 .822636 0 0 cm
+q
+1 0 0 1 6.6 8.022988 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 570 132 re B*
+Q
+q
+BT 1 0 0 1 0 113.71 Tm 12 TL /F6 10 Tf 0 0 0 rg (interface IJVAmazonAdvertisingResponseGroupHandler) Tj T* ({) Tj T* (    /**) Tj T* (     * Must return an associative array to be embedded with the hydrated object \(result item\)) Tj T* (     * Key is the attribute name \(beware of duplicate names\). Value can be anything.) Tj T* (     * @param SimpleXMLElement $currentItem Current ) Tj (<) Tj (Item) Tj (>) Tj ( XML element returned by AWS) Tj T* (     * @return array) Tj T* (     */) Tj T* (    public function handleResult\(SimpleXMLElement $currentItem\);) Tj T* (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 87.24849 cm
+q
+BT 1 0 0 1 0 28.82 Tm .025976 Tw 12 TL /F1 10 Tf 0 0 0 rg (With a ) Tj /F4 10 Tf (ResponseGroupHandler) Tj /F1 10 Tf (, you enrich your ) Tj /F4 10 Tf (JVAmazonAdvertisingResultItem ) Tj /F1 10 Tf (objects by the attributes) Tj T* 0 Tw .328735 Tw (returned by your handler. These attributes will be available as PHP properties. They will also be available) Tj T* 0 Tw (in templates. Example :) Tj T* ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R46': class PDFStream 
+46 0 obj
+% page stream
+<< /Length 2289 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 599.8005 cm
+q
+q
+.976496 0 0 .976496 0 0 cm
+q
+1 0 0 1 6.6 6.758862 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 480 168 re B*
+Q
+q
+BT 1 0 0 1 0 149.71 Tm 12 TL /F6 10 Tf 0 0 0 rg (class dummyResponseHandler implements IJVAmazonAdvertisingResponseGroupHandler) Tj T* ({) Tj T* (    public function handleResult\(SimpleXMLElement $currentItem\)) Tj T* (    {) Tj T* (        $productID = $currentItem-) Tj (>) Tj (ASIN;) Tj T* (        $newAttributes = array\() Tj T* (          'product_id'          =) Tj (>) Tj ( $productID,) Tj T* (          'generated_timestamp' =) Tj (>) Tj ( time\(\)) Tj T* (        \);) Tj T*  T* (        return $newAttributes;) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 579.8005 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Now, your attributes will be available in templates :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 486.6005 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 84 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 65.71 Tm /F6 10 Tf 12 TL ({def $amazonItems = fetch\('amazonadvertising', 'item_search', hash\() Tj T* (         'keywords', 'harry potter',) Tj T* (         'search_index', 'Books',) Tj T* (     \)\)) Tj T* (     $firstProductID = $amazonItem.0.product_id) Tj T* (     $firstProductGenTimestamp = $amazonIteM.0.generated_timestamp}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 466.6005 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (And in PHP :) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 380.9962 cm
+q
+q
+.710662 0 0 .710662 0 0 cm
+q
+1 0 0 1 6.6 9.287114 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 660 108 re B*
+Q
+q
+BT 1 0 0 1 0 89.71 Tm 12 TL /F6 10 Tf 0 0 0 rg ($result = eZFunctionHandler::execute\('amazonadvertising', 'item_search', array\() Tj T* (  'keywords'          =) Tj (>) Tj ( 'harry potter',) Tj T* (  'search_index'      =) Tj (>) Tj ( 'Books') Tj T* (\)\);) Tj T* (if\( $result \)) Tj T* ({) Tj T* (  echo 'ProductID : ', $result[0]-) Tj (>) Tj (product_id, ' / Generated Timestamp : ', $result[0]-) Tj (>) Tj (generated_timestamp;) Tj T* (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+
+endobj
+xref
+0 47
+0000000000 65535 f
+0000000113 00000 n
+0000000271 00000 n
+0000000436 00000 n
+0000000611 00000 n
+0000000780 00000 n
+0000000973 00000 n
+0000001255 00000 n
+0000001545 00000 n
+0000001800 00000 n
+0000002070 00000 n
+0000002260 00000 n
+0000002420 00000 n
+0000002758 00000 n
+0000003070 00000 n
+0000003382 00000 n
+0000003693 00000 n
+0000003991 00000 n
+0000004304 00000 n
+0000004616 00000 n
+0000004915 00000 n
+0000005184 00000 n
+0000005548 00000 n
+0000005828 00000 n
+0000006109 00000 n
+0000006247 00000 n
+0000006494 00000 n
+0000006620 00000 n
+0000006793 00000 n
+0000007019 00000 n
+0000007236 00000 n
+0000007406 00000 n
+0000007590 00000 n
+0000007807 00000 n
+0000007977 00000 n
+0000008158 00000 n
+0000008391 00000 n
+0000008590 00000 n
+0000008789 00000 n
+0000008986 00000 n
+0000009224 00000 n
+0000009417 00000 n
+0000009596 00000 n
+0000009731 00000 n
+0000018024 00000 n
+0000027070 00000 n
+0000033587 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\323\0157\012w\253\202\254\270]v\202\366Z\245\320) (\323\0157\012w\253\202\254\270]v\202\366Z\245\320)] 
+
+ /Info 25 0 R
+ /Root 24 0 R
+ /Size 47 >>
+startxref
+35950
+%%EOF
