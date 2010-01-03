@@ -17,7 +17,7 @@
 		<replace dir="${build.dir.dist}" token="@@@VERSION@@@" value="${build.version}">
 			<include name="**/*.php"/>
 		</replace>
-		<zip destfile="${build.dir}/jvamazonadvertising.zip" basedir="${build.dir.dist}" excludes="${build.dir.dist.extension}/ant/**"/>
+		<zip destfile="${build.dir}/jvamazonadvertising.zip" basedir="${build.dir.dist}" excludes="${build.dir.dist.extension}/ant/**,${build.dir.dist.extension}/tests/**"/>
 	</target>
 
 	<target name="export" description="Exports the extension via SVN">
