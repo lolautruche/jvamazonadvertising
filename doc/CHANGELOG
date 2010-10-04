@@ -1,5 +1,9 @@
 jvAmazonAdvertising
-2009 Jerome Vieilledent
+2009-2010 Jerome Vieilledent
+
+1.1.0
+------------------
+Replaced old licence by PHPDoc style licence
 
 1.0 beta
 ------------------
