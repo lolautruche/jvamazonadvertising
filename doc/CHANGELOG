@@ -4,6 +4,8 @@ jvAmazonAdvertising
 1.1.0
 ------------------
 Replaced old licence by PHPDoc style licence
+Implemented an "Amazon ID" datatype for ASIN search in content edit. Can be automatic on publish
+Added i18n support (with 4.3+ API) - NOT COMPATIBLE WITH eZ Publish versions < 4.3
 
 1.0 beta
 ------------------
