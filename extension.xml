@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>JV Amazon Advertising</name>
+        <version>@@@VERSION@@@</version>
+        <copyright>Copyright © 2010 Jérôme Vieilledent</copyright>
+        <license>http://www.gnu.org/licenses/gpl-2.0.txt GNU GPLv2</license>
+        <info_url>http://projects.ez.no/jvamazonadvertising</info_url>
+    </metadata>
+
+    <dependencies>
+        <requires>
+            <extension name="ezjscore" />
+        </requires>
+    </dependencies>
+</software>
