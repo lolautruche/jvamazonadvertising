@@ -86,7 +86,7 @@ class JVAmazonIDType extends eZDataType
      * @param eZContentObjectAttribute $contentObjectAttribute
      * @see eZDataType::fixupClassAttributeHTTPInput()
      */
-    public function fixupClassAttributeHTTPInput($http, $base, $classAttribute)
+    public function fixupClassAttributeHTTPInput( $http, $base, $classAttribute )
     {
         
     }
@@ -122,6 +122,25 @@ class JVAmazonIDType extends eZDataType
             $searchIndexFieldValue = $http->postVariable( $searchIndexFieldName );
             $classAttribute->setAttribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD, $searchIndexFieldValue );
         }
+    }
+    
+    /**
+     * Returns the content for the class attribute
+     * Result is an associative array :
+     * 		- search_field
+     * 		- search_index
+     * @param eZContentClassAttribute $classAttribute
+     * @return array
+     * @see eZDataType::classAttributeContent()
+     */
+    public function classAttributeContent( $classAttribute )
+    {
+        $aContent = array(
+            'search_field'		=> $classAttribute->attribute( self::CLASSATTRIBUTE_ALLOW_SEARCH_FIELD ),
+            'search_index'		=> $classAttribute->attribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD )
+        );
+        
+        return $aContent;
     }
     
     // --------------------------------------
@@ -200,7 +219,7 @@ class JVAmazonIDType extends eZDataType
      * @param eZHTTPTool $http
      * @param string $base POST variable name prefix (Always "ContentObjectAttribute")
      * @param eZContentObjectAttribute $contentObjectAttribute
-     * @return true if fetching of class attributes are successfull, false if not
+     * @return true if fetching of object attributes is successful, false if not
      */
     public function fetchObjectAttributeHTTPInput( $http, $base, $contentObjectAttribute )
     {
@@ -215,6 +234,10 @@ class JVAmazonIDType extends eZDataType
         if( $http->hasPostVariable( $allowSearchFieldName ) )
         {
             $contentObjectAttribute->setAttribute( 'data_int', 1 );
+        }
+        else
+        {
+            $contentObjectAttribute->setAttribute( 'data_int', 0 );
         }
         
         return true;
@@ -232,36 +255,14 @@ class JVAmazonIDType extends eZDataType
      */
     public function onPublish( $contentObjectAttribute, $contentObject, $publishedNodes )
     {
-        $content = $contentObjectAttribute->content();
+        $content = $contentObjectAttribute->attribute( 'data_text' );
         $allowSearchIfEmpty = (bool)$contentObjectAttribute->attribute( 'data_int' );
         
         if( !$content && $allowSearchIfEmpty ) // No content stored, try to get ASIN automatically
         {
             $classAttribute = $contentObjectAttribute->contentClassAttribute();
             $searchPattern = $classAttribute->attribute( self::CLASSATTRIBUTE_DEFAULT_FIELD );
-            $searchValue = $searchPattern;
-            preg_match_all( '#<([^>]+)>#U', $searchPattern, $matches, PREG_SET_ORDER ); // Get all attribute identifiers in searh pattern (in the form of <attribute_identifier>)
-            
-            if( count( $matches ) > 0 )
-            {
-                $dataMap = $contentObject->dataMap();
-                // Loop against all matches and check if they are attribute identifiers for this content object
-                // If not, just remove them
-                foreach( $matches as $match )
-                {
-                    list( $matchPattern, $identifier ) = $match;
-                    if( isset( $dataMap[$identifier] ) )
-                    {
-                        $searchValue = str_replace( $matchPattern, $dataMap[$identifier]->title(), $searchValue );
-                    }
-                    else
-                    {
-                        $searchValue = str_replace( $matchPattern, '', $searchValue );
-                    }
-                }
-                
-                $searchValue = trim( $searchValue );
-            }
+            $searchValue = $this->getSearchQuery( $searchPattern, $contentObject->attribute( 'id' ) );
             
             // Now perform an ItemSearch
             $aItemSearchParams = array(
@@ -275,7 +276,6 @@ class JVAmazonIDType extends eZDataType
                 $contentObjectAttribute->store();
                 return true;
             }
-            
         }
     }
     
@@ -293,16 +293,30 @@ class JVAmazonIDType extends eZDataType
 
     /**
      * Returns the content.
+     * Result is an associative array :
+     * 		- search_query : The search query built from the search pattern filled in the class attribute
+     * 		- search_pattern : The search pattern as filled in the class attribute
+     * 		- search_index : The search index as filled in the class attribute (ie. MP3Downloads)
+     * 		- product_id : The Amazon product ID (ASIN, ISBN, ...)
      * @param eZContentObjectAttribute
-     * @return string
+     * @return array
      */
     public function objectAttributeContent( $contentObjectAttribute )
     {
-        return $contentObjectAttribute->attribute( 'data_text' );
+        $classAttribute = $contentObjectAttribute->contentClassAttribute();
+        $searchPattern = $classAttribute->attribute( self::CLASSATTRIBUTE_DEFAULT_FIELD );
+        $aContent = array(
+            'search_query'		=> $this->getSearchQuery( $searchPattern, $contentObjectAttribute->attribute( 'contentobject_id' ) ),
+        	'search_pattern'	=> $searchPattern,
+            'search_index'		=> $classAttribute->attribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD ),
+            'product_id'		=> $contentObjectAttribute->attribute( 'data_text' )
+        );
+        
+        return $aContent;
     }
 
     /**
-     * Returns the meta data used for storing search indeces.
+     * Returns the meta data used for search index.
      * @param eZContentObjectAttribute
      * @return string
      */
@@ -371,7 +385,43 @@ class JVAmazonIDType extends eZDataType
     {
         return strtolower( $contentObjectAttribute->attribute( 'data_text' ) );
     }
-
+    
+    /**
+     * Returns search query for object attribute with class attribute search pattern
+     * @param string $searchPattern
+     * @param int $contentObjectID
+     * @return string
+     */
+    private function getSearchQuery( $searchPattern, $contentObjectID )
+    {
+        $contentObject = eZContentObject::fetch( $contentObjectID );
+        $searchValue = '';
+        preg_match_all( '#<([^>]+)>#U', $searchPattern, $matches, PREG_SET_ORDER ); // Get all attribute identifiers in searh pattern (in the form of <attribute_identifier>)
+            
+        if( count( $matches ) > 0 )
+        {
+            $searchValue = $searchPattern;
+            $dataMap = $contentObject->dataMap();
+            // Loop against all matches and check if they are attribute identifiers for this content object
+            // If not, just remove them
+            foreach( $matches as $match )
+            {
+                list( $matchPattern, $identifier ) = $match;
+                if( isset( $dataMap[$identifier] ) )
+                {
+                    $searchValue = str_replace( $matchPattern, $dataMap[$identifier]->title(), $searchValue );
+                }
+                else
+                {
+                    $searchValue = str_replace( $matchPattern, '', $searchValue );
+                }
+            }
+            
+            $searchValue = trim( $searchValue );
+        }
+        
+        return $searchValue;
+    }
 }
 
 eZDataType::register( JVAmazonIDType::DATA_TYPE_STRING, 'JVAmazonIDType' );
