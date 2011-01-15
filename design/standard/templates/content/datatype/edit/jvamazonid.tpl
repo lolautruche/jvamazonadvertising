@@ -32,8 +32,8 @@
     <script type="text/javascript">document.location = document.location+'#jvamazonid_{$attribute.id}';</script>
         
     <p>
-        <strong>{'Product search results'} :</strong><br />
-        <em>{'Click on the right product name to fill the field'}.</em>
+        <strong>{'Product search results'|i18n( 'design/standard/content/datatype/jvamazonid' )} :</strong><br />
+        <em>{'Click on the right product name to fill the field'|i18n( 'design/standard/content/datatype/jvamazonid' )}.</em>
     </p>
     <table class="list" cellspacing="0">
         <tr>
