@@ -36,24 +36,24 @@
         <em>{'Click on the right product name to fill the field'}.</em>
     </p>
     <table class="list" cellspacing="0">
-		<tr>
-		    <th>{'Product name'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
-		    <th>{'Product image'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
-		    <th>{'Main category'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
-		    <th>{'Product group'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
-		    <th>{'Product link'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
-		</tr>
-		{foreach $attribute.value.search_results as $product}
-		
-		<tr>
+        <tr>
+            <th>{'Product name'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
+            <th>{'Product image'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
+            <th>{'Main category'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
+            <th>{'Product group'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
+            <th>{'Product link'|i18n( 'design/standard/content/datatype/jvamazonid' )}</th>
+        </tr>
+        {foreach $attribute.value.search_results as $product}
+        
+        <tr>
             <td><a href="javascript:;" class="jvamazonid_result" id="amazonproduct_{$attribute.id}_{$product.id}">{$product.title|wash}</a></td>
             <td>{if $product.image}<img src={$product.image|ezurl} />{/if}</td>
             <td>{$product.binding}</td>
             <td>{$product.productgroup}</td>
             <td><a href={$product.url|ezurl} target="_blank">{$product.url|shorten( 50 )}</a></td>
-		</tr>
-		{/foreach}
-	</table>
+        </tr>
+        {/foreach}
+    </table>
     {else}
         
     <p><em>

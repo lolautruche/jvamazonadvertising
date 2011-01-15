@@ -9,7 +9,7 @@
  */
 class jvamazonadvertisingInfo
 {
-	static function info()
+    static function info()
     {
         return array( 'Name'      => '<a href="http://projects.ez.no/jvamazonadvertising" target="_blank"> jvAmazonAdvertising </a>',
                       'Version'   => '@@@VERSION@@@',

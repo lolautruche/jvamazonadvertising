@@ -10,13 +10,13 @@
 
 class JVAmazonAdvertisingResultItem extends JVAmazonAdvertisingAbstractItem
 {
-	public function __construct(array $attributes = array())
-	{
-		parent::__construct($attributes);
-	}
-	
-	public function __toString()
-	{
-		return $this->title;
-	}
+    public function __construct(array $attributes = array())
+    {
+        parent::__construct($attributes);
+    }
+    
+    public function __toString()
+    {
+        return $this->title;
+    }
 }

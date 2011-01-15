@@ -14,35 +14,35 @@
  */
 class JVAmazonAdvertisingMonitoringHandler implements IJVMonitoringHandler
 {
-	private $queryParams;
-	private $errorMessage;
-	
-	public function setParams(array $params)
-	{
-		$this->queryParams = $params;
-	}
-	
-	public function isUp()
-	{
-		try
-		{
-			// If a problem occurs, JVAmazonAdvertisingHandler will raise an exception
-			$isUp = true;
-			$handler = new JVAmazonAdvertisingHandler();
-			$url = $handler->buildQuery($this->queryParams);
-			$result = $handler->getResults($url);
-		}
-		catch(Exception $e)
-		{
-			$isUp = false;
-			$this->errorMessage = $e->getMessage();
-		}
-		
-		return $isUp;
-	}
-	
-	public function getErrorMessage()
-	{
-		return $this->errorMessage;
-	}
+    private $queryParams;
+    private $errorMessage;
+    
+    public function setParams(array $params)
+    {
+        $this->queryParams = $params;
+    }
+    
+    public function isUp()
+    {
+        try
+        {
+            // If a problem occurs, JVAmazonAdvertisingHandler will raise an exception
+            $isUp = true;
+            $handler = new JVAmazonAdvertisingHandler();
+            $url = $handler->buildQuery($this->queryParams);
+            $result = $handler->getResults($url);
+        }
+        catch(Exception $e)
+        {
+            $isUp = false;
+            $this->errorMessage = $e->getMessage();
+        }
+        
+        return $isUp;
+    }
+    
+    public function getErrorMessage()
+    {
+        return $this->errorMessage;
+    }
 }

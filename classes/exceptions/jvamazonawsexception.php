@@ -10,10 +10,10 @@
 
 class JVAmazonAWSException extends Exception
 {
-	const AWS_ERROR_RESPONSE = -1,
-		  AWS_INVALID_REQUEST = -2,
-		  AWS_UNEXEPECTED_ERROR = -3,
-		  AWS_NO_MATCHING_RESULT = -4;
-		  
-	const RESPONSE_GROUP_ERROR = -10;
+    const AWS_ERROR_RESPONSE = -1,
+          AWS_INVALID_REQUEST = -2,
+          AWS_UNEXEPECTED_ERROR = -3,
+          AWS_NO_MATCHING_RESULT = -4;
+          
+    const RESPONSE_GROUP_ERROR = -10;
 }
