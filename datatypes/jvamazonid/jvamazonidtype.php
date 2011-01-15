@@ -16,12 +16,15 @@ class JVAmazonIDType extends eZDataType
           CLASSATTRIBUTE_ALLOW_SEARCH_FIELD = 'data_int1',
           CLASSATTRIBUTE_ALLOW_SEARCH_DEFAULT = 0,
           CLASSATTRIBUTE_SEARCHINDEX_FIELD = 'data_text2',
-          CLASSATTRIBUTE_SEARCHINDEX_DEFAULT = 'All'; // Search in all Amazon categories (aka SearchIndex) by default
+          CLASSATTRIBUTE_SEARCHINDEX_DEFAULT = 'All', // Search in all Amazon categories (aka SearchIndex) by default
+          CLASSATTRIBUTE_BROWSENODE_FIELD = 'data_int2', // BrowseNode (category id) to look into when performing a search
+          CLASSATTRIBUTE_BROWSENODE_DEFAULT = '';
     
     const SEARCH_FIELD_VARIABLE = '_jvamazonid_asin_search_field_',
           ALLOW_SEARCH_IF_EMPTY_VARIABLE = '_jvamazonid_asin_search_if_empty_',
           SEARCH_INDEX_FIELD_VARIABLE = '_jvamazonid_asin_search_index_',
-          CONTENT_FIELD_VARIABLE = '_jvamazonid_data_text_';
+          CONTENT_FIELD_VARIABLE = '_jvamazonid_data_text_',
+          BROWSENODE_FIELD_VARIABLE = '_jvamazonid_browsenode_';
 
     /**
      * Constructor
@@ -63,6 +66,13 @@ class JVAmazonIDType extends eZDataType
         {
             $classAttribute->setAttribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD,
                                            self::CLASSATTRIBUTE_SEARCHINDEX_DEFAULT );
+        }
+        
+        // Default value for browse node
+        if ( !$classAttribute->attribute( self::CLASSATTRIBUTE_BROWSENODE_FIELD ) )
+        {
+            $classAttribute->setAttribute( self::CLASSATTRIBUTE_BROWSENODE_FIELD,
+                                           self::CLASSATTRIBUTE_BROWSENODE_DEFAULT );
         }
     }
     
@@ -121,6 +131,14 @@ class JVAmazonIDType extends eZDataType
         {
             $searchIndexFieldValue = $http->postVariable( $searchIndexFieldName );
             $classAttribute->setAttribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD, $searchIndexFieldValue );
+        }
+        
+        // BrowseNode
+        $browseNodeFieldName = $base . self::BROWSENODE_FIELD_VARIABLE . $classAttribute->attribute( 'id' );
+        if( $http->hasPostVariable( $searchIndexFieldName ) )
+        {
+            $browseNodeFieldValue = $http->postVariable( $browseNodeFieldName );
+            $classAttribute->setAttribute( self::CLASSATTRIBUTE_BROWSENODE_FIELD, $browseNodeFieldValue );
         }
     }
     
@@ -262,14 +280,9 @@ class JVAmazonIDType extends eZDataType
         {
             $classAttribute = $contentObjectAttribute->contentClassAttribute();
             $searchPattern = $classAttribute->attribute( self::CLASSATTRIBUTE_DEFAULT_FIELD );
-            $searchValue = $this->getSearchQuery( $searchPattern, $contentObject->attribute( 'id' ) );
+            $searchQuery = $this->getSearchQuery( $searchPattern, $contentObject->attribute( 'id' ) );
+            $aAmazonResult = $this->doSearch( $searchQuery, $contentObjectAttribute );
             
-            // Now perform an ItemSearch
-            $aItemSearchParams = array(
-                'keywords'		=> $searchValue,
-                'search_index'	=> $classAttribute->attribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD )
-            );
-            $aAmazonResult = eZFunctionHandler::execute( 'amazonadvertising', 'item_search', $aItemSearchParams );
             if( count( $aAmazonResult ) > 0 )
             {
                 $contentObjectAttribute->setAttribute( 'data_text', $aAmazonResult[0]->id );
@@ -421,6 +434,72 @@ class JVAmazonIDType extends eZDataType
         }
         
         return $searchValue;
+    }
+    
+    /**
+     * Do the ASIN search in Amazon catalog
+     * @param string $searchQuery
+     * @param eZContentObjectAttribute $contentObjectAttribute
+     * @return array Array of objects implementing IJVAmazonAdvertisingItem (see amazonadvertising.ini for exact class)
+     */
+    private function doSearch( $searchQuery, eZContentObjectAttribute $contentObjectAttribute )
+    {
+        $classAttribute = $contentObjectAttribute->contentClassAttribute();
+        
+        // Now perform an ItemSearch
+        $aItemSearchParams = array(
+            'keywords'      => $searchQuery,
+            'search_index'  => $classAttribute->attribute( self::CLASSATTRIBUTE_SEARCHINDEX_FIELD )
+        );
+        
+        // Is there a BrowseNode to look into ?
+        if( $classAttribute->attribute( self::CLASSATTRIBUTE_BROWSENODE_FIELD ) > 0 )
+        {
+            $aRawParams = array(
+                'BrowseNode'    => $classAttribute->attribute( self::CLASSATTRIBUTE_BROWSENODE_FIELD )
+            );
+            $aItemSearchParams['raw_params'] = $aRawParams;
+        }
+        
+        $aAmazonResult = eZFunctionHandler::execute( 'amazonadvertising', 'item_search', $aItemSearchParams );
+        return $aAmazonResult;
+    }
+    
+    /**
+     * Handle actions not directly related to content object publication,
+     * like an image deletion on an attribute with eZImage datatype,
+     * or like adding a new row on a matrix attribute
+     * @see kernel/classes/eZDataType::customObjectAttributeHTTPAction()
+     * @param eZHTTPTool $http
+     * @param string $action The action name
+     * @param eZContentObjectAttribute $contentObjectAttribute
+     * @param array $parameters Associative array
+     *                              - module (reference to the content module currently in use)
+     *                              - current-redirection-uri (URI that will be used to redirect the user after the custom action has been performed)
+     *                              - base_name (Usually set as ContentObjectAttribute)
+     */
+    public function customObjectAttributeHTTPAction( $http, $action, $contentObjectAttribute, $parameters )
+    {
+        if( $action == 'search_asin' )
+        {
+            $contentObjectID = $contentObjectAttribute->object()->attribute( 'id' );
+            eZContentObject::clearCache( array( $contentObjectID ) ); // Clear in-memory cache to get full datamap. Will be truncated otherwise
+            
+            $classAttribute = $contentObjectAttribute->contentClassAttribute();
+            $searchPattern = $classAttribute->attribute( self::CLASSATTRIBUTE_DEFAULT_FIELD );
+            $searchQuery = $this->getSearchQuery( $searchPattern, $contentObjectID );
+            $aAmazonResult = $this->doSearch( $searchQuery, $contentObjectAttribute );
+            if( count( $aAmazonResult ) > 0 )
+            {
+                // Store results in HTTP value which is temporary and accessible through "value" attribute in templates
+                // $attribute.value
+                $contentObjectAttribute->setHTTPValue( array( 'search_results' => $aAmazonResult ) );
+            }
+            else
+            {
+                $contentObjectAttribute->setHTTPValue( array( 'search_results' => -1 ) );
+            }
+        }
     }
 }
 

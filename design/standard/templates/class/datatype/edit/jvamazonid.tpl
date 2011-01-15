@@ -38,4 +38,21 @@
               <a href={"http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SearchIndexValues.html"|ezurl} target="_blank">http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/APPNDX_SearchIndexValues.html</a>
            </i>
     </fieldset>
+    
+    <fieldset>
+        <legend>
+            {"Amazon BrowseNode (sub-category) to search into"|i18n( "design/standard/class/datatype/jvamazonid" )}
+        </legend>
+        
+        <label for="ContentClass_jvamazonid_browsenode_{$class_attribute.id}">
+           {"Enter a valid browse node (product location in Amazon catalog). Leave empty if not applicable"|i18n( "design/standard/class/datatype/jvamazonid" )}<br />
+        </label>
+        <input type="text" size="50" 
+               name="ContentClass_jvamazonid_browsenode_{$class_attribute.id}" 
+               id="ContentClass_jvamazonid_browsenode_{$class_attribute.id}" 
+               value="{$class_attribute.data_int2}" /><br />
+           <i>{"Find a browse nodes non-exhaustive list here"|i18n( "design/standard/class/datatype/jvamazonid" )} : 
+              <a href={"http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/index.html?APPNDX_SearchIndexValues.html"|ezurl} target="_blank">http://docs.amazonwebservices.com/AWSECommerceService/latest/DG/index.html?APPNDX_SearchIndexValues.html</a>
+           </i>
+    </fieldset>
 </div>
