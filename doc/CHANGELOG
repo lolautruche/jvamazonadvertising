@@ -7,6 +7,7 @@ Replaced old licence by PHPDoc style licence
 Implemented an "Amazon ID" datatype for ASIN search in content edit. Can be automatic on publish
 Added i18n support (with 4.3+ API) - NOT COMPATIBLE WITH eZ Publish versions < 4.3
 Added extension.xml (eZ Publish 4.4)
+Fixed problem with products URLs that were not URL decoded
 
 1.0 beta
 ------------------

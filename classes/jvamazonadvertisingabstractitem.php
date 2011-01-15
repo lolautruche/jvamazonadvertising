@@ -93,6 +93,8 @@ abstract class JVAmazonAdvertisingAbstractItem implements IJVAmazonAdvertisingIt
 		if(isset($this->attributeHolder[$attrName])) // First test static attributes
 		{
 			$val = $this->attributeHolder[$attrName];
+			if( $attrName == 'url' ) // URL attribute is url encoded, so it must be decoded to be usable
+			    $val = rawurldecode( $val );
 		}
 		else if(isset($this->attributeFunctions[$attrName])) // Then test function attributes
 		{
