@@ -6,5 +6,5 @@
     <label>{"Amazon SearchIndex (category) to search into"|i18n( "design/standard/class/datatype/jvamazonid" )} :</label>
     <p>{$class_attribute.data_text2|wash}</p>
     <label>{"Amazon BrowseNode (sub-category) to search into"|i18n( "design/standard/class/datatype/jvamazonid" )} :</label>
-    <p>{$class_attribute.int2|wash}</p>
+    <p>{$class_attribute.data_int2}</p>
 </div>
