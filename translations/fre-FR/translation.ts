@@ -17,7 +17,7 @@
     </message>
     <message>
         <source>Automatically search ASIN on publish if object attribute is left empty (default value)</source>
-        <translation>Chercher automatiquement l&apos;ASIN à la publication if l&apos;attribut d&apos;objet est laissé vide (valeur par défaut)</translation>
+        <translation>Chercher automatiquement l&apos;ASIN à la publication si l&apos;attribut d&apos;objet est laissé vide (valeur par défaut)</translation>
     </message>
     <message>
         <source>Amazon SearchIndex (category) to search into</source>
