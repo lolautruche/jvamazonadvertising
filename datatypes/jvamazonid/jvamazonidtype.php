@@ -85,6 +85,7 @@ class JVAmazonIDType extends eZDataType
      */
     public function validateClassAttributeHTTPInput( $http, $base, $classAttribute )
     {
+        // TODO : Validate SearchIndex and BrowseNode validity
         return eZInputValidator::STATE_ACCEPTED;
     }
     
